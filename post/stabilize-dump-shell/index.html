@@ -72,7 +72,7 @@ While playing CTF Challenges, it is often to spawn a reverse shell on the target
 While playing CTF Challenges, it is often to spawn a reverse shell on the target machine. Other than ssh shell, every shell is a dump which often kills the reverse shell and this shell doesn&rsquo;t give you the proper shell functionalities like tab completion, &ldquo;su&rdquo; command, clear the terminal, etc. Sometimes, pressing &ldquo;ctrl&#43;c&rdquo; completely kills your reverse shell.">
 <meta itemprop="datePublished" content="2022-06-07T23:38:30-07:00" />
 <meta itemprop="dateModified" content="2022-06-07T23:38:30-07:00" />
-<meta itemprop="wordCount" content="226">
+<meta itemprop="wordCount" content="227">
 
 
 
@@ -376,7 +376,7 @@ While playing CTF Challenges, it is often to spawn a reverse shell on the target
       <p>Hello All, This is my first blog that explains how to stabilize the shell in Linux.</p>
 <p>While playing CTF Challenges, it is often to spawn a reverse shell on the target machine. Other than ssh shell, every shell is a dump which often kills the reverse shell and this shell doesn&rsquo;t give you the proper shell functionalities like tab completion, &ldquo;su&rdquo; command, clear the terminal, etc. Sometimes, pressing &ldquo;ctrl+c&rdquo; completely kills your reverse shell.</p>
 <p>Shell Stabilization prevents you from killing your reverse shell and adds proper shell functionalities.</p>
-<p>Note: This post assumes you already a reverse shell on the target machine.</p>
+<p>Note: This post assumes you already have a reverse shell on the target machine.</p>
 <p>Commands to upgrade a TTY dump shells</p>
 <p><strong>Python3</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -c <span style="color:#e6db74">&#34;import pty; pty.spawn(&#39;/bin/bash)&#34;</span>
